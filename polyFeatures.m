@@ -15,6 +15,8 @@ X_poly = zeros(numel(X), p);
 %
 % 
 
+% this can be done by vectorization??
+% I can't imagine
 for i=1:p,
 	X_poly(:,i) = X(:,1).^i;
 end
